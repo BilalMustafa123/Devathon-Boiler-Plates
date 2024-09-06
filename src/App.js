@@ -1,3 +1,4 @@
+import Cart from "./Components/Cart/Cart";
 import Display from "./Components/Display/Display";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
@@ -13,6 +14,7 @@ function App() {
         <Home />
       </div>
       <Display />
+      <Cart />
       <Footer />
     </div>
   );
