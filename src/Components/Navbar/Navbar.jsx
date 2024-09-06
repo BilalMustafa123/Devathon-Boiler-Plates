@@ -39,9 +39,9 @@ const Navbar = () => {
     };
 
     return (
-        <nav id='navbar' className='h-16 bg-[#001f3f] text-white sticky top-0 z-50'>
-            <div className='text-3xl flex px-8 pl-[10%] py-3'>
-                <h2 onClick={() => scrollToComponent('hero')} className='hover:cursor-pointer'>
+        <nav id='navbar' className='h-16 bg-[#E8E8E8] text-black sticky top-0 z-50'>
+            <div className='text-3xl flex px-8 pl-20 py-3'>
+                <h2 onClick={() => scrollToComponent('hero')} className='hover:cursor-pointer font-bold'>
                     Portfolio
                 </h2>
                 <div className='ml-auto mr-4 max-sm:mr-0'>
